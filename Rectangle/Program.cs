@@ -9,6 +9,7 @@ namespace RectangleApplication
             Rectangle r1 = new Rectangle(4, 3);
             Rectangle r2 = new Rectangle(5.2, 3);
             //r.Acceptdetails();
+            //Jared brancj
             r1.Display();
             //r2.Display();
             Console.ReadKey();
