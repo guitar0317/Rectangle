@@ -6,11 +6,12 @@ namespace RectangleApplication
     {
         static void Main(string[] args)
         {
-            //Rectangle r = new Rectangle(4, 3);
-            Rectangle r = new Rectangle(5.2, 3);
-            r.Acceptdetails();
-            r.Display();
-
+            Rectangle r1 = new Rectangle(4, 3);
+            Rectangle r2 = new Rectangle(5.2, 3);
+            //r.Acceptdetails();
+            r1.Display();
+            //r2.Display();
+            Console.ReadKey();
         }
     }
 
