@@ -8,7 +8,7 @@ namespace RectangleApplication
         {
             //Rectangle r = new Rectangle(4, 3);
             Rectangle r = new Rectangle(5.2, 3);
-            //r.Acceptdetails();
+            r.Acceptdetails();
             r.Display();
 
         }
@@ -32,7 +32,7 @@ namespace RectangleApplication
         }
         public double GetArea()
         {
-            return Math.Round(length * width, 2);
+            return Math.Round(length * width);
         }
         public void Display()
         {
